@@ -8,6 +8,7 @@
 		margin:30px auto;
 		display:block;
 		border:1px solid transparent;
+		max-height: max-content;
 	}
 	table{
 		background-color:var(--color1);
