@@ -7,17 +7,20 @@
 		nav a{
 			text-align:center;
 		}
-		main > section:not(:nth-child(2)){
+		main{
+			min-height: 90vh;
+		}
+		main > section:not(#esports){
 			width:85vw;
 		}
-		main > section:nth-child(2){
+		#esports{
 			display:flex;
 			flex-direction:column;
 			align-items:stretch;
 			flex-wrap:nowrap;
 		}
-		main > section:nth-child(2) :not(:last-child){
-			margin-bottom:10px;
+		#esports :not(:last-child){
+			margin-bottom:15px;
 		}
 	}
 	/* Tablets */

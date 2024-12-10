@@ -45,7 +45,7 @@
 		text-align:center;
 		list-style-type:none;
 	}
-	header, main, footer{
+	header, main, section, div, footer{
 		contain:content;
 	}
 	header{
