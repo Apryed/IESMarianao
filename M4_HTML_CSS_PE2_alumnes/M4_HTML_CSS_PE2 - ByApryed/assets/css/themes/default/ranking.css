@@ -5,6 +5,7 @@
 		margin:30px auto;
 		display:block;
 		border:1px solid transparent;
+		min-height: 80vh;
 	}
 	table{
 		background-color:var(--color1);
